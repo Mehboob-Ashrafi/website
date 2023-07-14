@@ -1,0 +1,130 @@
+body{
+    margin: 0%;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    padding: 2px 50px;
+}
+.header>div>img{
+    margin-top: 15px;
+}
+.d-inline{
+    display: inline-block;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: -60px;
+    margin-left: 150px;
+}
+.menu>li {
+    display: inline-block;
+    color: #f5ebeb;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    vertical-align: bottom;
+    margin-left: 50px;
+}
+.menu-box{
+ height: 100%;
+ /* vertical-align: middle; */
+ margin-left: 40px;
+ 
+}
+.btn {
+    color: #262020;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #ed1c24;
+    border-radius: 35px;
+    border: 1px solid #ed1c24;
+    margin-left: 20px;
+    margin-top: -12px;
+}
+span i {
+    background-color: #fff;
+    color: #56191f;
+    padding: 5px 7px;
+    border-radius: 23px;
+    margin-left: 7px
+}
+
+/* 2nd */
+.product {
+    display: block;
+  width: 100%;
+  padding: 0px 15px 0px 15px;
+  padding-top: 70px;
+  position: relative;
+  overflow: hidden;
+padding-bottom: 70px;
+background-color: #221919;
+}
+
+.main_heading {
+    text-align: center;
+}
+.main_heading h2 {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #f0ebeb;
+    margin-bottom: 8px;
+}
+.main_heading p {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(252, 251, 251, 0.7);
+    margin-bottom: 40px;
+}
+.brand-btn a {
+    display: block;
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 50px;
+    color: #f0e9e9;
+    margin: auto;
+    margin-top: 24px;
+}
+.product_list ul  {
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+}
+.product_box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+        }
+.product_box img {
+             width: 100%;
+    object-fit: contain;
+    height: 100%;
+    background-color: #e2cece;
+    padding: 12px 19px;
+    border-radius: 3px;
+        }
+      
+ /* 3rd */
+
+
+
+ 
